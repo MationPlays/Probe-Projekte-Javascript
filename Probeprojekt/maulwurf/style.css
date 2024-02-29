@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#board {
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    background-image: url(img/soil.png);
+    display: flex;
+    justify-content: space-evenly;/**/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pipe {
+    width: 120px;
+    height: 120px;
+    margin: 25px;
+    background-image: url(img/pipe.png); /**/
+    /*background-color: pink;*/
+    background-size: cover;
+    display: inline-block;
+ 
+}
+
+#mole1, #mole2, #mole3, #mole4, #mole5, #mole6, #mole7, #mole8, #mole9, #mole10, #mole11, #mole12,
+#mole13, #mole14, #mole15, #mole16 {
+    width: 50px;
+    height: 50px;
+    /*margin: 30px 70px 70px 70px;*/
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url(img/monty-mole.png); /**/
+    /*background-color: black;*/
+    background-size: cover;
+    display: inline-block; 
+    opacity: 0;
+}
+
+#counter {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px;
+    left: 50px;
+    color: white;
+}
+
+#maulwurf{
+    width: 30px;
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    left: 0px;
+}
+
+#lives {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px;
+    top: 0px;
+    left: 180px;
+    color: white;
+    /* background-image: url(/img/herz.png); */
+    /* background-size: cover; */
+}
+
+#herz{
+    width: 30px;
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    left: 130px;
+}
+
+#highS {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    top: 0px;
+    left: 480px;
+    color: white;
+    /* background-image: url(/img/herz.png); */
+    /* background-size: cover; */
+}
